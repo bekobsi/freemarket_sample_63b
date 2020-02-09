@@ -22,3 +22,15 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
+## Categoryテーブル
+|Column|Type|Options|
+|------|----|-------|
+|name|sting|null: false, foreign_key: true|
+|main_ctegory|string|null: false, foreign_key: true|
+|second_category|string|null: false, foreign_key: true|
+|third_category|string|null: false, foreign_key: true|
+### Association
+- belongs_to :Products
